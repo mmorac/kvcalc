@@ -1,4 +1,3 @@
-
 [app]
 
 # (str) Title of your application
@@ -9,6 +8,7 @@ package.name = kvCalc
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kvcalc
+
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -177,7 +177,7 @@ fullscreen = 0
 #android.add_gradle_repositories =
 
 # (list) Java classes to add as activities to the manifest.
-#android.add_activites = com.example.ExampleActivity
+#android.add_activities = com.example.ExampleActivity
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
